@@ -6,7 +6,7 @@ body {
 }
 
 #sidebar {
-	width: 15%;
+	width: auto;
 	position: absolute;
     left: 0px;
 	/* top: 10%;*/
@@ -15,8 +15,11 @@ body {
     box-shadow: 0 0 75px 30px rgba(95, 158, 200, .7) ;
 }
 .sidebutton {
-	overflow: hidden;
-	clip: rect(50px,60px,60px,50px);
+	/*overflow: hidden;
+	clip: rect(50px,60px,60px,50px);*/
+	height:40px;
+	display:block;
+
 }
 
 #splash {
